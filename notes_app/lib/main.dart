@@ -15,13 +15,13 @@ class NotesApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
       home: const HomePage(),
       debugShowCheckedModeBanner: false,
       routes: {
-        'addnotes' :(context) => const AddNotePage(),
+        'addnotes': (context) => const AddNotePage(),
       },
     );
   }
